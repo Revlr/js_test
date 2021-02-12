@@ -5,3 +5,11 @@ body{
 h1{
     color: white;
 }
+
+/*
+if you change color by ` id="sth" ` in html, use like under that
+
+#sth{
+    blah...
+}
+*/
