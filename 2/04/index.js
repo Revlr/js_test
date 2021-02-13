@@ -9,8 +9,8 @@ window.addEventListener(resize, handleResize);
 */
 
 function handleClick() {
-    title.style.color = "blue";
+    title.style.color = "skyblue";
     console.log("title is clicked");
 }
 
-title.addEventListener("onMouse", handleClick);
+title.addEventListener("mouseover", handleClick);
