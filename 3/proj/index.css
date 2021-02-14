@@ -1,4 +1,5 @@
 body{
+    padding-top: 10%;
     color: white;
 }
 
@@ -8,17 +9,20 @@ h1{
 }
 
 h4{
-    font-size: 300%;
+    font-size: 150%;
 }
 
 #wrapper{
-    background-color: rgba(38, 41, 44, 0.3);
+    background-color: rgba(38, 41, 44, 0.5);
     margin-top: 100px;
     position: relative;
     display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    
+    width: 50%;
+    margin: auto;
 }
 
 .form,
@@ -31,5 +35,5 @@ h4{
 }
 
 .js-toDoForm{
-    
+
 }
