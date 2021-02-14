@@ -24,4 +24,4 @@ var id = parsedJson.id;
 var url = "https://picsum.photos/id/"+id+"/"+w+"/"+h;
 
 const bodyBackground = document.querySelector("body");
-bodyBackground.style = "background:url("+url+") no-repeat center/cover;";
+bodyBackground.style = "background:url("+url+") no-repeat center/cover; object-fit: fill;";

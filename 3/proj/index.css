@@ -1,10 +1,24 @@
 body{
-    background-color: #26292c;
+    color: white;
 }
 
 h1{
-    color: white;
+    font-size: 500%;
     transition: color 0.5s ease-in-out;
+}
+
+h4{
+    font-size: 300%;
+}
+
+#wrapper{
+    background-color: rgba(38, 41, 44, 0.3);
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
 
 .form,
@@ -14,4 +28,8 @@ h1{
 
 .showing {
     display: block;
+}
+
+.js-toDoForm{
+    
 }
